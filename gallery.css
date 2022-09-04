@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	
+}
+nav{
+	display: flex;
+        align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 8%;
+	padding-right: 72vh;
+        background: #f4fced;
+	
+}
+
+.logo-img{
+	  padding: 5px;
+          width: 150px;;
+        
+}
+span{
+	color: #03E1FF;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #a1f29f;
+	transition: .4s;
+}
+
+.bg{
+    padding: 100px 10px;
+    background-image: url(media/gallerybg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.titletext{
+    letter-spacing: 1.5px;
+    line-height: 36px;
+    font-size: 40px;
+    margin-top: 18vh;
+    color: #f4fced;
+    margin-left: 18vh;
+}
+
+.hometext{
+    letter-spacing: 1.5px;
+    line-height: 36px;
+    font-size: 22px;
+    margin-bottom: 45px;
+    color: black;
+} 
+
+.home{
+    padding: 100px 10px;
+    background-image: url(media/gallery1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hometwo{
+    padding: 100px 10px;
+    background-image: url(media/gallery2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.homethree{
+    padding: 100px 10px;
+    background-image: url(media/gallery3.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.homefour{
+    padding: 100px 10px;
+    background-image: url(media/gallery4.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.homefive{
+    padding: 100px 10px;
+    background-image: url(media/gallery5.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+  padding: 24px;
+  width: 550px;
+  background-color: #f4fced; 
+  border-radius: 20px;
+  margin-bottom: 5vh;
+  opacity: 0.7;
+  margin-left: 60vh;
+  margin-top: 20vh;
+}

@@ -1,0 +1,164 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url(media/searchbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}  
+
+.hero{
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 8%;
+  padding-right: 72vh;
+  background: #f4fced;
+	
+}
+
+.logo-img{
+  padding: 5px;
+  width: 150px;;	
+        
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px  25px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: #a1f29f;
+  transition: .4s;
+}
+
+
+::selection{
+  color: #fff;
+  background: #32bf36;
+}
+
+.wrapper{
+  max-width: 60vh;
+  margin: 150px auto;
+  opacity: 0.9;
+  border-radius: 10vh;
+}
+
+.wrapper .search-input{
+  background: #fff;
+  width: 100%;
+  position: relative;
+  border-radius: 2vh;
+}
+
+.search-input input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 25vh;
+  padding: 0 60px 0 20px;
+  font-size: 24px;
+
+}
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+  border-radius: 25vh;
+}
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+.autocom-box li:hover{
+  background: #efefef;
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #32bf36;
+  cursor: pointer;
+}
+.search-input .icon:hover{
+  transform: scale(1.2);
+}
+
+.content{
+  position: absolute;
+  top: 30vh;
+  left:12vh;
+  transform: translateY(-50%);     
+}
+
+h1{
+	color: #FFFFFF;
+	margin: 20px 0px 20px;
+	font-size: 90px;
+}
+
+h3{
+	color: #FFFFFF;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+h1 span{
+  color: #57f774;
+}
+
+
+h3 span{
+  color: #DC1FFF;
+}
